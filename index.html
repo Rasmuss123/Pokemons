@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/public/css/main.css">
+  <link rel="stylesheet" href="/public/css/index.css">
+  <script defer src="/public/js/main.js"></script>
+  <script defer src="/public/js/index.js"></script>
+</head>
+<body>
+  <div id="root">
+    <nav>
+      <div class="wrapper">
+        <ul>
+          <li>
+            <a href="/">
+              <svg class="nav-link-icon" viewBox="0 0 576 512">
+                <path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="/explore.html">
+              <svg class="nav-link-icon" viewBox="0 0 496 512">
+                <path d="M225.38 233.37c-12.5 12.5-12.5 32.76 0 45.25 12.49 12.5 32.76 12.5 45.25 0 12.5-12.5 12.5-32.76 0-45.25-12.5-12.49-32.76-12.49-45.25 0zM248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm126.14 148.05L308.17 300.4a31.938 31.938 0 0 1-15.77 15.77l-144.34 65.97c-16.65 7.61-33.81-9.55-26.2-26.2l65.98-144.35a31.938 31.938 0 0 1 15.77-15.77l144.34-65.97c16.65-7.6 33.8 9.55 26.19 26.2z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="wrapper">
+        <div class="title">
+          <span>Pokemon guess</span>
+        </div>
+        <span class="score">0</span>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="pokemon-container">
+          <div class="skeleton-img">
+            <div class="loader"></div>
+          </div>
+        </div>
+        <input type="text" class="pokemon-input" placeholder="Guess The Pokemon...">
+        <div class="suggestions"></div>
+        <button class="hint">Get a hint</button>
+        <div class="overlay">
+          <span class="score-status"></span>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
